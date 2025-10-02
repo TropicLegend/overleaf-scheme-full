@@ -2,6 +2,7 @@ FROM sharelatex/sharelatex:latest
 
 # Create and set the working directory inside the container
 WORKDIR /overleaf
+RUN apt install textlive-base
 RUN tlmgr install scheme-full
 # Copy all the application source files into the container
 
