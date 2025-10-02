@@ -36,8 +36,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Install Dependencies
-        run: npm install
+      #- name: Install Dependencies
+      #  run: npm install
 
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
