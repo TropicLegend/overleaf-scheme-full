@@ -111,6 +111,7 @@ ENV GRACEFUL_SHUTDOWN_DELAY_SECONDS=1
 ENV NODE_ENV="production"
 ENV LOG_LEVEL="info"
 
+RUN tlmgr install scheme-full
 
 EXPOSE 80
 
